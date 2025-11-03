@@ -1,0 +1,14 @@
+name: Omm Computer
+
+on:
+  push:
+    branches: [main]
+
+   jobs:
+     Demo:
+       run-on: Ubuntu-latest
+
+       steps:
+         - name: Stories 
+           run: echo "Hello India"
+         
