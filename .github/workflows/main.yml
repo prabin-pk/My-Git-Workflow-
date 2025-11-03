@@ -1,14 +1,14 @@
-name: Omm Computer
+name: prabin-pk
 
 on:
   push:
     branches: [main]
 
-   jobs:
-     Demo:
-       run-on: Ubuntu-latest
+jobs:
+  Demo:
+    runs-on: Ubuntu-latest
 
-       steps:
-         - name: Stories 
-           run: echo "Hello India"
+    steps:
+      - name: Stories 
+        run: echo "Hello India"
          
